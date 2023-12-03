@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    padding-top: 100px;
+    background-color: rgb(43, 42, 51);
+    height: 100%;
+}
+
+#canvas {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.ctn {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 45%;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: .1s all ease-out;
+}
+
+.clear-btn {
+    background-color: rgb(223, 61, 21);
+}
+
+.clear-btn:active{
+    background-color: rgb(187, 54, 20);
+}
+
+.choice-btn{
+    background-color: rgb(22, 168, 17);
+}
+
+.choice-btn:active{
+    background-color: rgb(20, 139, 15);
+}
+
+.predict{
+    padding: 10px 0px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
